@@ -51,7 +51,7 @@ const Skills = () => {
               <li><strong>KSPM:</strong> Wiz KSPM Policies, Container runtime threat detection, Kubernetes workload security, Container Image scanning (Static + runtime)</li>
               <li><strong>IaC Security:</strong> WizCLI IaC scanning; Terraform / ARM policy violation, policy as code pipelines, automated exemption workflows</li>
               <li><strong>Container Security:</strong> Static container image scanning, runtime threat detection for containers, Vulnerability scanning, misconfigurations scanning, registry scanning</li>
-              <li><strong>Threat Detection/Runtime Security:</b> Wiz Runtime Detection, Container runtime monitoring, cloud workload threat detection, behavioral anomaly detection</li>
+              <li><strong>Threat Detection/Runtime Security:</strong> Wiz Runtime Detection, Container runtime monitoring, cloud workload threat detection, behavioral anomaly detection</li>
               <li><strong>GRC Automation:</strong> Automated exemption pipelines, Policy lifecycle automation, cloud governance workflows, exception approval workflows</li>
             </ul>
           </div>
