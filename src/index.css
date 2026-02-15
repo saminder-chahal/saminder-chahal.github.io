@@ -9,13 +9,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0f0f23;
-  color: #ffffff;
+  background-color: #f0f2f5; /* Light background */
+  color: #333333; /* Dark text */
 }
 
-/* Professional DevSecOps Styling */
+/* Professional DevSecOps Styling for Light Theme */
 .hero-gradient {
-  background: linear-gradient(135deg, #1e3a8a 0%, #111827 75%);
+  background: linear-gradient(135deg, #e0e7ff 0%, #ffffff 75%); /* Light blue to white gradient */
+  color: #1a202c; /* Dark text for light background */
 }
 
 .timeline-item {
@@ -30,41 +31,42 @@ body {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #10b981, #059669);
-  box-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
+  background: linear-gradient(135deg, #38a169, #2f855a); /* Green accent */
+  box-shadow: 0 0 10px rgba(56, 161, 105, 0.3);
 }
 
 .skill-bar {
-  background: linear-gradient(90deg, #f59e0b 0%, #d97706 100%);
+  background: linear-gradient(90deg, #fbd38d 0%, #f6ad55 100%); /* Orange accent */
 }
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.2);
+  box-shadow: 0 10px 30px rgba(56, 161, 105, 0.2); /* Green shadow for hover */
 }
 
 .certificate-badge {
-  background: linear-gradient(135deg, #6b46c1, #4c1d95);
+  background: linear-gradient(135deg, #a78bfa, #8b5cf6); /* Light purple accent */
+  color: #ffffff; /* White text for purple background */
 }
 
 .security-focus {
-  box-shadow: inset 0 0 30px rgba(16, 185, 129, 0.1);
+  box-shadow: inset 0 0 30px rgba(56, 161, 105, 0.1); /* Green inset shadow */
 }
 
-/* Scrollbar Styling */
+/* Scrollbar Styling for Light Theme */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #1f2937;
+  background: #e2e8f0; /* Light gray track */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #10b981, #059669);
+  background: linear-gradient(135deg, #38a169, #2f855a); /* Green thumb */
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(135deg, #059669, #047857);
+  background: linear-gradient(135deg, #2f855a, #276749); /* Darker green thumb on hover */
 }

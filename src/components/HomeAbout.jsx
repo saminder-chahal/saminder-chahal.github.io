@@ -6,35 +6,35 @@ const HomeAbout = () => {
       <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center text-white text-3xl font-bold shadow-lg">
         SC
       </div>
-      <h1 className="text-5xl font-bold text-white mb-3">
+      <h1 className="text-5xl font-bold text-gray-800 mb-3">
         Saminder Chahal
       </h1>
-      <p className="text-2xl text-blue-300 font-semibold mb-2">
+      <p className="text-2xl text-blue-600 font-semibold mb-2">
         Senior DevSecOps & Cloud Security Engineer
       </p>
-      <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
+      <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
         10+ years of experience in cloud security, automation, and secure CI/CD pipelines
         for enterprise applications.
       </p>
 
       {/* Certifications Section */}
-      <div className="bg-gray-800 rounded-lg shadow-lg p-8 mb-8 mx-auto max-w-3xl">
-        <h2 className="text-3xl font-bold text-center mb-8 text-white">Certifications</h2>
+      <div className="bg-white rounded-lg shadow-lg p-8 mb-8 mx-auto max-w-3xl">
+        <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Certifications</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="text-center p-4 rounded-lg certificate-badge transform hover:scale-105 transition-transform duration-300">
             <div className="text-4xl mb-3">☁️</div>
-            <h3 className="font-bold text-lg mb-2 text-white">AWS Certified</h3>
-            <p className="text-gray-200">Cloud Architecture & Security</p>
+            <h3 className="font-bold text-lg mb-2 text-gray-800">AWS Certified</h3>
+            <p className="text-gray-600">Cloud Architecture & Security</p>
           </div>
           <div className="text-center p-4 rounded-lg certificate-badge transform hover:scale-105 transition-transform duration-300">
             <div className="text-4xl mb-3">🔒</div>
-            <h3 className="font-bold text-lg mb-2 text-white">CISSP</h3>
-            <p className="text-gray-200">Certified Information Systems Security Professional</p>
+            <h3 className="font-bold text-lg mb-2 text-gray-800">CISSP</h3>
+            <p className="text-gray-600">Certified Information Systems Security Professional</p>
           </div>
           <div className="text-center p-4 rounded-lg certificate-badge transform hover:scale-105 transition-transform duration-300">
             <div className="text-4xl mb-3">⚓</div>
-            <h3 className="font-bold text-lg mb-2 text-white">Kubernetes Certified</h3>
-            <p className="text-gray-200">K8s & Container Security</p>
+            <h3 className="font-bold text-lg mb-2 text-gray-800">Kubernetes Certified</h3>
+            <p className="text-gray-600">K8s & Container Security</p>
           </div>
         </div>
       </div>
@@ -46,8 +46,7 @@ const HomeAbout = () => {
           🔗 LinkedIn Profile
         </a>
       </div>
-    </section>
-  );
+    </section>  );
 };
 
 export default HomeAbout;
