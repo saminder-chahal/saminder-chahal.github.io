@@ -23,17 +23,17 @@ const HomeAbout = () => {
         <h2 className="text-3xl font-bold text-center mb-8 text-gray-900 dark:text-gray-100">Certifications</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="text-center p-4 rounded-lg certificate-badge bg-primary-50 dark:bg-gray-700 transform hover:scale-105 transition-transform duration-300">
-            <CloudIcon className="mx-auto h-8 w-8 text-primary-500 dark:text-primary-300 mb-2" /> {/* AWS Icon */}
+            <CloudIcon className="mx-auto h-6 w-6 text-primary-500 dark:text-primary-300 mb-2" /> {/* AWS Icon */}
             <h3 className="font-bold text-lg mb-2 text-primary-700 dark:text-primary-300">AWS Certified</h3>
             <p className="text-gray-500 dark:text-gray-300">Cloud Architecture & Security</p>
           </div>
           <div className="text-center p-4 rounded-lg certificate-badge bg-primary-50 dark:bg-gray-700 transform hover:scale-105 transition-transform duration-300">
-            <ShieldCheckIcon className="mx-auto h-8 w-8 text-primary-500 dark:text-primary-300 mb-2" /> {/* CISSP Icon */}
+            <ShieldCheckIcon className="mx-auto h-6 w-6 text-primary-500 dark:text-primary-300 mb-2" /> {/* CISSP Icon */}
             <h3 className="font-bold text-lg mb-2 text-primary-700 dark:text-primary-300">CISSP</h3>
             <p className="text-gray-500 dark:text-gray-300">Certified Information Systems Security Professional</p>
           </div>
           <div className="text-center p-4 rounded-lg certificate-badge bg-primary-50 dark:bg-gray-700 transform hover:scale-105 transition-transform duration-300">
-            <CubeIcon className="mx-auto h-8 w-8 text-primary-500 dark:text-primary-300 mb-2" /> {/* Kubernetes Icon */}
+            <CubeIcon className="mx-auto h-6 w-6 text-primary-500 dark:text-primary-300 mb-2" /> {/* Kubernetes Icon */}
             <h3 className="font-bold text-lg mb-2 text-primary-700 dark:text-primary-300">Kubernetes Certified</h3>
             <p className="text-gray-500 dark:text-gray-300">K8s & Container Security</p>
           </div>
