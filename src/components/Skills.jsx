@@ -9,7 +9,7 @@ const Skills = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-900 dark:text-gray-100">
           <div>
             <h3 className="text-xl font-semibold text-primary-700 dark:text-primary-500 mb-3 flex items-center">
-              <CloudIcon className="h-5 w-5 mr-2 text-primary-500 dark:text-primary-700" /> Cloud Platforms
+              <CloudIcon className="h-5 w-5 md:h-4 md:w-4 mr-2 text-primary-500 dark:text-primary-700" /> Cloud Platforms
             </h3>
             <ul className="list-disc list-inside space-y-1 text-gray-500 dark:text-gray-300">
               <li>Azure</li>
@@ -21,7 +21,7 @@ const Skills = () => {
           </div>
           <div>
             <h3 className="text-xl font-semibold text-primary-700 dark:text-primary-500 mb-3 flex items-center">
-              <Cog6ToothIcon className="h-5 w-5 mr-2 text-primary-500 dark:text-primary-700" /> DevSecOps Tools
+              <Cog6ToothIcon className="h-5 w-5 md:h-4 md:w-4 mr-2 text-primary-500 dark:text-primary-700" /> DevSecOps Tools
             </h3>
             <ul className="list-disc list-inside space-y-1 text-gray-500 dark:text-gray-300">
               <li>Terraform</li>
@@ -34,7 +34,7 @@ const Skills = () => {
           </div>
           <div>
             <h3 className="text-xl font-semibold text-primary-700 dark:text-primary-500 mb-3 flex items-center">
-              <CodeBracketIcon className="h-5 w-5 mr-2 text-primary-500 dark:text-primary-700" /> Programming/Scripting
+              <CodeBracketIcon className="h-5 w-5 md:h-4 md:w-4 mr-2 text-primary-500 dark:text-primary-700" /> Programming/Scripting
             </h3>
             <ul className="list-disc list-inside space-y-1 text-gray-500 dark:text-gray-300">
               <li>Python</li>
@@ -44,7 +44,7 @@ const Skills = () => {
           </div>
           <div className="lg:col-span-2">
             <h3 className="text-xl font-semibold text-primary-700 dark:text-primary-500 mb-3 flex items-center">
-              <ShieldCheckIcon className="h-5 w-5 mr-2 text-primary-500 dark:text-primary-700" /> Security Tools
+              <ShieldCheckIcon className="h-5 w-5 md:h-4 md:w-4 mr-2 text-primary-500 dark:text-primary-700" /> Security Tools
             </h3>
             <ul className="list-disc list-inside space-y-1 text-gray-500 dark:text-gray-300">
               <li><strong>CSPM:</strong> Azure Policies, GCP Org Policies, Wiz CSPM Policies, Automated Exemption Pipelines (Governance + policy as code)</li>
@@ -57,7 +57,7 @@ const Skills = () => {
           </div>
           <div>
             <h3 className="text-xl font-semibold text-primary-700 dark:text-primary-500 mb-3 flex items-center">
-              <DocumentCheckIcon className="h-5 w-5 mr-2 text-primary-500 dark:text-primary-700" /> Compliance & Frameworks
+              <DocumentCheckIcon className="h-5 w-5 md:h-4 md:w-4 mr-2 text-primary-500 dark:text-primary-700" /> Compliance & Frameworks
             </h3>
             <ul className="list-disc list-inside space-y-1 text-gray-500 dark:text-gray-300">
               <li>ISO 27001</li>
@@ -69,7 +69,7 @@ const Skills = () => {
           </div>
           <div>
             <h3 className="text-xl font-semibold text-primary-700 dark:text-primary-500 mb-3 flex items-center">
-              <ServerStackIcon className="h-5 w-5 mr-2 text-primary-500 dark:text-primary-700" /> Operating Systems
+              <ServerStackIcon className="h-5 w-5 md:h-4 md:w-4 mr-2 text-primary-500 dark:text-primary-700" /> Operating Systems
             </h3>
             <ul className="list-disc list-inside space-y-1 text-gray-500 dark:text-gray-300">
               <li>Linux</li>
