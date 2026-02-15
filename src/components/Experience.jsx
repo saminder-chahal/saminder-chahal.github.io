@@ -32,3 +32,8 @@ const Experience = () => {
         */}
       </div>
     </section>
+  );
+};
+
+export default Experience;
+
